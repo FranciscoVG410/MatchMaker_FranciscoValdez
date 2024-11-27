@@ -47,7 +47,7 @@ const NACIONALIDADES_ACEPTADAS = [
 window.onload = function(){
     const form = document.getElementsByTagName("form");
     const inputs = form[0].getElementsByTagName("input");
-    const selects = form[0].getElementsByTagName("selected");
+    const selects = form[0].getElementsByTagName("select");
     for(let input of inputs){
         input.onfocus = resaltarDesresaltar;
 
